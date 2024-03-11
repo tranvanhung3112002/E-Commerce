@@ -1,0 +1,35 @@
+my-react-app/
+│
+├── public/                  # Thư mục chứa các tệp tĩnh không được xử lý bởi Webpack
+│   ├── index.html           # File HTML chính
+│   └── ...
+│
+├── src/                     # Thư mục chứa mã nguồn của ứng dụng React
+│   ├── components/          # Thư mục chứa các thành phần React tái sử dụng
+│   │   ├── Header.tsx       # Ví dụ: Header component
+│   │   ├── Footer.tsx       # Ví dụ: Footer component
+│   │   └── ...
+│   │
+│   ├── features/            # Thư mục chứa các tính năng của ứng dụng
+│   │   ├── counter/         # Ví dụ: Tính năng đếm
+│   │   │   ├── counterSlice.ts   # Redux slice cho tính năng đếm
+│   │   │   └── Counter.tsx       # Component liên quan đến tính năng đếm
+│   │   │
+│   │   ├── auth/            # Ví dụ: Tính năng xác thực
+│   │   │   ├── authSlice.ts     # Redux slice cho tính năng xác thực
+│   │   │   └── AuthForm.tsx     # Component liên quan đến tính năng xác thực
+│   │   └── ...
+│   │
+│   ├── pages/               # Thư mục chứa các trang của ứng dụng
+│   │   ├── Home.tsx         # Trang chính của ứng dụng
+│   │   ├── About.tsx        # Ví dụ: Trang giới thiệu
+│   │   └── ...
+│   │
+│   ├── App.tsx              # Component gốc của ứng dụng
+│   ├── index.tsx            # File khởi đầu của ứng dụng
+│   └── ...
+│
+├── .gitignore               # Tệp cấu hình cho Git
+├── package.json             # Tệp mô tả dự án và các phụ thuộc
+├── tsconfig.json            # Cấu hình TypeScript
+└── ...

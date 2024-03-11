@@ -1,0 +1,92 @@
+#root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  /* margin-left: 30px; */
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: aliceblue;
+  cursor: pointer;
+  margin-left: 15px;
+  display: none;
+}
+.reponsive-mb {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  max-width: 100%;
+  background-color: white;
+  text-align: center;
+  transform: translateX(-100%);
+  transition: transform linear 0.35s;
+}
+.reponsive-mb-list {
+  margin-top: 20px;
+}
+
+.mbb {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 7px 0;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.mb-input:checked ~ .overlay {
+  display: block;
+}
+
+.mb-input:checked ~ .reponsive-mb {
+  transform: translateX(0%);
+}
+
+.closes {
+  width: 28px;
+  height: 28px;
+  font-size: 1.5rem;
+  color: #666;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+}
+
+@media (max-width: 952px) {
+  .logo {
+    padding-right: 250px;
+  }
+  .uppercase {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+  .uppercase {
+    display: none;
+  }
+  .uppercase .a {
+    display: block;
+    font-size: 20px;
+  }
+  #check:checked ~ .uppercase .a {
+    left: 0;
+  }
+}

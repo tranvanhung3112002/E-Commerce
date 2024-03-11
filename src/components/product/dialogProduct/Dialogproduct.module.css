@@ -1,0 +1,73 @@
+.slidercontainer {
+    position: relative;
+    overflow: hidden;
+}
+
+.prevArrow,
+.nextArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.prevArrow {
+    left: -20px; 
+}
+  
+.nextArrow {
+    right: -20px; 
+}
+
+.slidercontainer:hover .prevArrow {
+    left: 10px;
+    transition: 0.6s;
+}
+.slidercontainer:hover .nextArrow {
+    right: 10px;
+    transition: 0.6s;
+}
+
+.cardImage {
+    border-radius: 10px;
+}
+.viewDetail {
+    background-color: #2247CC;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    bottom: -60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+}
+
+.slidercontainer:hover .viewDetail {
+    bottom: 0px;
+    transition: 0.6s;
+}
+
+@media screen and (max-width: 576px){
+    .slidercontainer {
+        margin-top: 15px;
+    }
+
+}
+@media screen and (max-width: 768px){
+   
+}
+
+.addtocart {
+    background-color: aqua;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+

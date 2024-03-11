@@ -1,0 +1,58 @@
+.Box {
+    background-color: #f1e9ea;
+}
+.EmailIcon{
+    background-color: rgb(34, 71, 204);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    border:1px solid #e2e4eb ;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+}
+.button{
+    font-size: 12px !important;
+    text-transform: none !important;
+    height: 37px !important;
+    width: 90px !important;
+}
+.xicon {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 24px;
+}
+.pin {
+    color: red;
+    font-size: 24px;
+}
+.linkedinIn {
+    background-color:  blue;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 24px;
+}
+.fb{
+    color: #1877F2 ;
+    font-size: 24pxs;
+}
+.telegram {
+ background-color: #37aee2;
+ color:white;
+ border-radius: 50%;
+ padding: 5px;
+ font-size: 24px;
+}
+.h1 {
+    color: #2247cc;
+}

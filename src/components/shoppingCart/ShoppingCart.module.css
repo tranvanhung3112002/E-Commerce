@@ -1,0 +1,96 @@
+
+
+.divShopping {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 12px 0px 12px;
+  min-width: 220px;
+}
+
+.closeBtn {
+  cursor: pointer;
+  margin-top: 5px
+}
+
+.img {  
+  width: 80px;
+  border-radius: 5px;
+  margin-top : -5px;
+  margin-left: 5px;
+  margin-bottom: 6px;
+  
+}
+
+.list {
+  max-height: calc(100vh - 260px);
+  overflow-y: auto;
+}
+
+.name{
+  font-size: 14px;
+  font-weight: 500;
+  max-width: 180px;
+  opacity: 0.8;
+  padding-left: 20px;
+  margin-top: -10px;
+}
+
+.product {
+  margin: 10px -10px -15px 20px;
+  padding: 10px ;
+}
+
+.deleteIcon {
+  cursor: pointer;
+  padding-top: 25px;
+  opacity: 0.5;
+}
+
+.quantity {
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: -10px;
+  opacity: 0.6;
+}
+
+.price {
+  color: blue;
+  font-weight: bold
+}
+
+.viewCartButton {
+  color: #000;
+  background-color: #ece3d0;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: normal;
+  margin-right: 10px;
+  border: none;
+  width: 100%;
+  height: 40px;
+  margin: 10px 15px 0 15px;
+  border-radius: 5px;
+}
+
+.checkoutButton {
+  color: #fffafa;
+  background-color: #1976d2;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: normal;
+  border: none;
+  width: 100%;
+  height: 40px;
+  margin: 10px 15px 0 15px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #f9f7f7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}

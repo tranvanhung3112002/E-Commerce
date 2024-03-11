@@ -1,0 +1,42 @@
+.filterColor {
+    height: 200px;
+    overflow: auto;
+    padding-right: 10px;
+}
+.filterSize {
+    padding-right: 10px;
+}
+.filterColor::-webkit-scrollbar {
+    width: 5px;
+    background-color: #d1cfcf; 
+    border-radius: 5px; 
+}
+
+.filterDrawer {
+    overflow: auto;
+}
+
+.filterDrawer::-webkit-scrollbar {
+    width: 0px;
+}
+
+.filterColorItem:hover {
+    background-color: blueviolet;
+    border-radius: 6px;
+    color: white;
+}
+.colorQuantity , .sizeQuantity {
+    margin-top: 2px;
+    width: 35px;
+}
+.filterColorItem:hover .colorQuantity {
+   color: white;
+}
+.filterSizeItem:hover .sizeQuantity {
+    background-color: blue;
+    color: white;
+}
+
+.hoverOption:hover {
+    background-color: aquamarine;
+}

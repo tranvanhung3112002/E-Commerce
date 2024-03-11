@@ -1,0 +1,59 @@
+.headernavbaruser {
+  position: relative;
+  cursor: pointer;
+}
+
+.headernavbaruser:hover .headernavbarusermenu {
+  display: block;
+}
+.headernavbarusermenu {
+  position: absolute;
+  z-index: 10;
+  width: 160px;
+  padding: 8px 0;
+  top: 100%;
+  right: 0;
+  border-radius: 2px;
+  background-color: #fff;
+  list-style: none;
+  /* box-shadow: 0 1px 2px #eeeaea; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: none;
+}
+
+.headernavbarusermenu::before {
+  content: "";
+  border: solid;
+  border-width: 20px 30px;
+  border-color: transparent transparent #fff transparent;
+  position: absolute;
+  right: 1px;
+  top: -26px;
+  z-index: -2;
+}
+
+.headernavbaruseritem p {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  padding: 8px 16px;
+  display: block;
+  margin: 0;
+  cursor: pointer;
+}
+.headernavbaruseritem p:hover {
+  background-color: #f7f3f3;
+}
+.headernavbaruseritem p:first-child {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.headernavbaruseritem p:last-child {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.borderBottomSearch {
+  border-bottom: 2px solid black;
+}

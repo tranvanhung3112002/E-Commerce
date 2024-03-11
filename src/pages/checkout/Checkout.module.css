@@ -1,0 +1,103 @@
+.title {
+  background-color: #F7F3F0;
+  padding: 25px 0;
+}
+
+.addCoupon {
+  margin: 20px 0;
+}
+
+.textCoupon {
+  opacity: 0.7;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.inputCoupon {
+  margin-top: 30px;
+  border: 2px solid rgb(204, 208, 208);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.label {
+  width: 100%;
+  /* margin-left: 20px; */
+  margin: 8px 0
+}
+
+.yourOrder {
+  background-color: #F7F7F7;
+  border: 16px dotted #fff;
+}
+
+.yourOrderBody {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.button {
+  border: none;
+  background-color: #F7F3F0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.img {
+  width: 60px;
+  margin-left: -25px;
+}
+
+.deleteIcon {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+
+.quantity {
+  background-color: #F7F3F0;
+  padding: 0;
+  height: 30px;
+  width: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 6px;
+  margin-top: 10px
+}
+
+.price {
+  opacity: 0.7;
+}
+
+.shippingText {
+  display: flex;
+  align-items: center;
+}
+
+.formShip {
+  margin: auto;
+  padding: auto;
+}
+
+.shipLabel {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 0.5rem;
+}
+
+.btnOrder {
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  width: 100vh;
+}

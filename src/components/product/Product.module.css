@@ -1,0 +1,50 @@
+
+.stateProduct {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: 1;
+}
+
+.productImageContainer {
+    overflow: hidden;
+
+}
+
+.productImage {
+    transition: transform 0.4s ease;
+}
+.productImageHover {
+    transform: scale(1.2);
+    transition: transform 0.9s ease;
+}
+
+.optionBarContainer {
+    position: absolute;
+    overflow: hidden;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+
+}
+.optionBar {
+    width: 100%;
+    margin-top: 60px;
+    
+}
+
+.optionBarHover {
+    width: 100%;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
